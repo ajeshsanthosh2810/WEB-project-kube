@@ -15,7 +15,7 @@ spec:
       containers:
       - name: webtest
         image: registry.techgentsia.com/admin-meet:latest
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
       imagePullSecrets:
